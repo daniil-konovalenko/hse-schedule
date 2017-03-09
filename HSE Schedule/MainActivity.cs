@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace HSE_Schedule
 {
-    [Activity(Label = "HSE_Schedule", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "@string/MainActivityTitle", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
 
@@ -18,7 +18,6 @@ namespace HSE_Schedule
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-            SetTitle(Resource.String.MainActivityTitle);
 
         }
     }
