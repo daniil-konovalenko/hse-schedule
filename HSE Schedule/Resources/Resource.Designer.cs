@@ -129,6 +129,9 @@ namespace HSE_Schedule
 			// aapt resource value: 0x7f060000
 			public const int ApplicationName = 2131099648;
 			
+			// aapt resource value: 0x7f060001
+			public const int MainActivityTitle = 2131099649;
+			
 			static String()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

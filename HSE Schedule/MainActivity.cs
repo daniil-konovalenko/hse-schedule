@@ -18,6 +18,7 @@ namespace HSE_Schedule
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+            SetTitle(Resource.String.MainActivityTitle);
 
         }
     }
